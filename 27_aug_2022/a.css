@@ -1,0 +1,151 @@
+:root{
+    --main-color : #eee;
+    --primary-color :rgb(235, 28, 28);
+    --facebook:#3b5998;
+    --youtube : red;    
+    --discord :#7289da;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
+
+*{
+    font-family: 'Nunito Sans', sans-serif;
+}
+.company{
+   color :rgb(255, 0, 0);
+    font-weight: 600;
+}
+.main-color{
+    background-color:bisque;
+}
+#navbarNavDropdown ul li a{
+    font-weight: 600;
+    font-size: 14px;
+}
+.logo{
+    width:32px;
+    height: 32px;;
+}
+section {
+    margin: 8rem 0;
+}
+#intro .profile img{
+  width:  70%;
+  border: 4px solid var(--primary-color) ;
+  border-radius: 50%;
+}
+#intro .hello{
+    font-size: 1.5rem;
+    font-weight: 600px;
+}
+#intro .name h1{
+    font-size: 3.5rem ;
+    font-weight: 600;
+}
+#intro .name span{
+    color: var(--primary-color);
+}
+#intro .Bio {
+    font-size: 1.1rem;
+    opacity: 70%;
+    margin-bottom: 1rem;
+}
+
+ 
+#intro .Bio b {
+    color: var(--primary-color);
+    opacity: 100%;
+}
+#intro .contact {
+    margin-bottom: 1rem;
+    
+}
+#intro .contact span{
+    display: block;
+    
+}
+#intro .contact span svg {
+    fill: var(--primary-color);
+}
+#intro .socail ul{
+  display : inline-block;
+  padding:0;
+  list-style: none;
+}
+#intro .social {
+    margin-bottom: 2rem;
+}
+#intro .socail ul li {
+    float :left;
+    margin: 0px 5px;
+}
+#intro .socail .facebook svg {
+    fill: var(--facebook);
+}
+#intro .socail .youtube svg {
+    fill: var(--youtube);
+}
+#intro .socail .discord svg {
+    fill: var(--discord);
+}
+#about {
+    text-align: right;
+}
+#about .h2, #education h2{
+
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+#about p{
+    margin-bottom: 2.5rem;
+    text-align: left;
+    font-size: 1.1 rem;
+    opacity: 80%;
+   
+}
+#about p span{
+    font-weight: 600;
+    margin-bottom: 2.5rem;
+}
+.text-right {
+    text-align: right!important;
+}
+.text-bold{
+    font-weight: 600;
+}
+#education{
+    font-size: 1.1 rem;
+
+}
+#education{
+  line-height: 0.5;
+
+}
+#experince{
+    font-size: 1.1 rem;
+
+}
+
+
+#experience {
+    text-align: right;
+}
+#experience .h2 {
+
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+#experience ul, li {
+    margin-bottom: 1rem;
+    text-align: left;
+    font-size: 1.1 rem;
+    opacity: 80%;
+   
+}
+
+#experience p {
+    margin-bottom: 2rem;
+    text-align: left;
+    font-size: 1.1 rem;
+}
+
